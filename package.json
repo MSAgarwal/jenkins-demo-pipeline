@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "nodejs demo app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test build completed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSAgarwal/nodejs-demo-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "author": "Shubham Agarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSAgarwal/nodejs-demo-app/issues"
+  },
+  "homepage": "https://github.com/MSAgarwal/nodejs-demo-app#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^5.1.0",
+    "jest": "^30.0.5"
+  }
+}
