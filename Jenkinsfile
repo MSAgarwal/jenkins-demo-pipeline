@@ -5,21 +5,21 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Installing dependencies...'
-                sh 'npm install'
+                bat 'npm install'
             }
         }
 
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'npm test'
+                bat 'npm test'
             }
         }
 
         stage('Deploy') {
             steps {
                 echo 'Simulating deployment...'
-                sh 'echo "Deployment complete!"'
+                bat 'echo "Deployment complete!"'
             }
         }
     }
